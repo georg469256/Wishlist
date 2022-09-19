@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wishlist</string>
+    <string name="submit">Submit</string>
+    <string name="urlExample">EX: https://abc.abc/abc</string>
+    <string name="priceExample">EX: $5.99</string>
+    <string name="item_name">Item Name</string>
 </resources>
