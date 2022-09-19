@@ -23,6 +23,7 @@
         android:id="@+id/SubmitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:enabled="false"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -44,7 +45,7 @@
         android:id="@+id/ItemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:digits="0123456789$,."
+        android:digits="0123456789"
         android:ems="10"
         android:hint="@string/priceExample"
         android:inputType="text"
