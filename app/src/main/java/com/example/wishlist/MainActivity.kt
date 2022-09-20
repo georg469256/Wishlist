@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val itemRV = findViewById<RecyclerView>(R.id.itemsRV)
-        val items = ArrayList<Item>()
+        val items = Item.createItemsList(20)
         val adapter = ItemAdapter(items)
         val itemName = findViewById<EditText>(R.id.ItemName)
         val itemURL = findViewById<EditText>(R.id.ItemURL)
